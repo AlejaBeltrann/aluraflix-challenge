@@ -18,17 +18,43 @@ const GlobalStyle = createGlobalStyle`
     --color-error-medium: rgba(229, 57, 53, 1);
     --color-error-light: rgba(252, 231, 231, 1);
 }
+
 body {
     font-family: var(--roboto);
     margin: 0;
     padding: 0;
     background-color: rgb(37, 41, 71);
 }
+
+/* Estilos generales */
 h1 {
     color: var(--color-gray-light);
 }
 p {
     color: var(--color-gray-light);
 }
-`
+
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+    body {
+        background-color: rgb(50, 50, 50);
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
+`;
+
 export default GlobalStyle;
