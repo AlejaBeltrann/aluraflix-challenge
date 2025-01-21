@@ -68,8 +68,8 @@ const Table = ({ editarCategoria }) => {
                 <tr>
                     <th>Nombre</th>
                     <th>Descripción</th>
-                    <ThCSS>✏️</ThCSS>
-                    <ThCSS>🗑️</ThCSS>
+                    <ThCSS>"Editar"✏️</ThCSS>
+                    <ThCSS>"Eliminar"🗑️</ThCSS>
                 </tr>
             </thead>
             <tbody>
