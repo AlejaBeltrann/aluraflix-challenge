@@ -5,9 +5,9 @@
 }
 
 .carouselItem {
-    padding-right: 1rem;
+    padding-right: auto;
     /* Espaciado entre elementos */
-    margin: 0 1rem;
+    margin: auto;
     /* Margen mágico a los lados */
     /* Agrega otros estilos mágicos aquí */
 }
