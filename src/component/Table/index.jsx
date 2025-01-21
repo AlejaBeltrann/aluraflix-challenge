@@ -68,8 +68,8 @@ const Table = ({ editarCategoria }) => {
                 <tr>
                     <th>Nombre</th>
                     <th>Descripción</th>
-                    <ThCSS>Editar</ThCSS>
-                    <ThCSS>Remover</ThCSS>
+                    <ThCSS>✏️</ThCSS>
+                    <ThCSS>🗑️</ThCSS>
                 </tr>
             </thead>
             <tbody>
@@ -77,8 +77,8 @@ const Table = ({ editarCategoria }) => {
                     <tr key={categoria.id}>
                         <td>{categoria.nombre}</td>
                         <td>{categoria.descripcion}</td>
-                        <TdCSS><a href='#' onClick={() => editarCategoria(categoria.id)}>Editar</a></TdCSS>
-                        <TdCSS><a href='#' onClick={() => handleRemove(categoria.id)} >Remover</a></TdCSS>
+                        <TdCSS><a href='#' onClick={() => editarCategoria(categoria.id)}>✏️</a></TdCSS>
+                        <TdCSS><a href='#' onClick={() => handleRemove(categoria.id)} >🗑️</a></TdCSS>
                     </tr>
                 ))}
             </tbody>
