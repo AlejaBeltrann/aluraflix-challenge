@@ -1,6 +1,6 @@
 .carousel-container {
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     padding: 0 1rem;
 }
 
