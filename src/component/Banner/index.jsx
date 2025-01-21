@@ -39,15 +39,6 @@ const Encabezado = styled.h1`
     padding-top: 2rem;
     padding-bottom: 0.56rem;
 `
-const Parrafo = styled.p`
-    height: 6.875rem;
-    width: auto;
-    flex-shrink: 0;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-`
 const Banner = () => {
     return (
         <BannerDiv>
@@ -55,7 +46,6 @@ const Banner = () => {
                 <ContenidoTexto>
                     <TitleCategory titleCategoria='Front End' titleColor='rgba(42, 122, 228, 1)' />
                     <Encabezado>Challenge React</Encabezado>
-                    <Parrafo>Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.</Parrafo>
                 </ContenidoTexto>
                 <VideoCardMain borderColor={'rgba(42, 122, 228, 1)'} videoImg={'https://img.youtube.com/vi/ov7vA5HFe6w/0.jpg'} src={'https://www.youtube.com/watch?v=ov7vA5HFe6w'} />
             </Contenido>
