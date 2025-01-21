@@ -15,8 +15,10 @@ const Card = styled.div`
     `
 const Footer = () => {
     return <Card>
-                <p>Desarrollado por Tatiana Beltran &copy; 2025</p>
                 <LogoMain />
+                <a />
+                <p>Desarrollado por Tatiana Beltran &copy; 2025</p>
+                
             </Card>
   };
 
