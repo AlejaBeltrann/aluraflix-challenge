@@ -16,9 +16,17 @@ const Card = styled.div`
 const Footer = () => {
     return <Card>
                 <LogoMain />
-                <a />
-                <p>Desarrollado por Tatiana Beltran &copy; 2025</p>
-                
+                <h2 class="footer-texto">Desarrollado por Tatiana Beltrán - 2025 </h2>
+
+                <a href="https://github.com/alejabeltrann" target="_blank">
+                    <img src="./github.svg" alt="imagem github" />
+                </a>
+                <a href="https://www.linkedin.com/in/beltranascencio/" target="_blank">
+                    <img src="./linkedin.svg" alt="imagem linkedin" />
+                </a>
+                <a href="https://www.instagram.com/alejabeltrann/" target="_blank">
+                    <img src="./instagram.svg" alt="imagem instagram" />
+                </a>
             </Card>
   };
 
