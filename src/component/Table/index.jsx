@@ -68,8 +68,8 @@ const Table = ({ editarCategoria }) => {
                 <tr>
                     <th>Nombre</th>
                     <th>Descripción</th>
-                    <ThCSS>"Editar"✏️</ThCSS>
-                    <ThCSS>"Eliminar"🗑️</ThCSS>
+                    <ThCSS>✏️</ThCSS>
+                    <ThCSS>🗑️</ThCSS>
                 </tr>
             </thead>
             <tbody>
@@ -116,8 +116,8 @@ export const VideoTable = ({ editarVideo }) => {
                     <th>Nombre</th>
                     <th>Descripción</th>
                     <th>Categoria</th>
-                    <ThCSS>"Editar"✏️</ThCSS>
-                    <ThCSS>"Eliminar"🗑️</ThCSS>
+                    <ThCSS>✏️</ThCSS>
+                    <ThCSS>🗑️</ThCSS>
                 </tr>
             </thead>
             <tbody>
