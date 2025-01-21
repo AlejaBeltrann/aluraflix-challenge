@@ -8,6 +8,8 @@
     padding-right: auto;
     /* Espaciado entre elementos */
     margin: auto;
+    width: auto;
+    height: auto;
     /* Margen mágico a los lados */
     /* Agrega otros estilos mágicos aquí */
 }

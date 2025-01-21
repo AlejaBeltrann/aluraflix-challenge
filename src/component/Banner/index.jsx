@@ -9,6 +9,7 @@ const BannerDiv = styled.div`
     align-items: center;
     flex-direction: column;
     height: auto;
+    width: auto;
     flex-shrink: 0;
     border: 1px solid #000;
     background: url(1669559000581.png), var(--color-black-dark);
@@ -40,7 +41,7 @@ const Encabezado = styled.h1`
 `
 const Parrafo = styled.p`
     height: 6.875rem;
-    width:auto;
+    width: auto;
     flex-shrink: 0;
     font-size: 1.125rem;
     font-style: normal;

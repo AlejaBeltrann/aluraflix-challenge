@@ -27,7 +27,9 @@ const FooterText = styled.h2`
 const Footer = () => {
     return <Card>
                 <LogoMain />
+                    <br></br>
                 <FooterText>Desarrollado por Tatiana Beltrán © 2025</FooterText>
+                <br></br>
                 <SocialLinks>
                     <a href="https://github.com/alejabeltrann" target="_blank">
                         <img src="./github.svg" alt="imagem github" />
