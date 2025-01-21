@@ -22,6 +22,7 @@ body {
     font-family: var(--roboto);
     margin: 0;
     padding: 0;
+    background-color: rgb(37, 41, 71);
 }
 h1 {
     color: var(--color-gray-light);
