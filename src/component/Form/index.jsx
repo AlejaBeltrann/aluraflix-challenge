@@ -256,7 +256,7 @@ export const NewForm = ({ cargarVideo }) => {
 
     return (
         <CatForm onSubmit={handleNewVid} >
-            <Encabezado> {idContent ? 'Editar video' : 'Nuevo video'} </Encabezado>
+            <Encabezado> {idContent ? 'Editar video' : 'Agregar video'} </Encabezado>
             <FieldText
                 imputName="titulo"
                 inputPlaceholder="Titulo"
@@ -317,7 +317,7 @@ export const NewForm = ({ cargarVideo }) => {
             />
             <p style={{ marginTop: '-32px',  fontSize: '12px', color: 'red', }}>{errorMessages.seccode}</p>
             <Menu>
-                {idContent ? <GuardarVideo valor="Guardar" buttonOnClick={handleEditVid} /> : <GuardarVideo valor="Nuevo Video" type='submit' />}
+                {idContent ? <GuardarVideo valor="Guardar" buttonOnClick={handleEditVid} /> : <GuardarVideo valor="Agregar Video" type='submit' />}
                 <BorrarVideo valor="Limpiar" buttonOnClick={handleClear} />
                 {/* <Link to="/nuevacategoria"><NuevaCategoria valor="Nueva categoría" /></Link> */}
             </Menu>
