@@ -20,7 +20,7 @@ const Header = () => {
         return (
             <HeaderDiv>
                 <LogoMain />
-                <Link to="/nuevovideo"><NuevoVideo valor="Nuevo video" /></Link>
+                <Link to="/nuevovideo"><NuevoVideo valor="Agregar Video" /></Link>
             </HeaderDiv>
         )
     }
