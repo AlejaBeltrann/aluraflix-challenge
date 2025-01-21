@@ -1,6 +1,7 @@
 .carousel-container {
     position: relative;
     overflow: auto;
+    height: auto;
     padding: 0 1rem;
 }
 

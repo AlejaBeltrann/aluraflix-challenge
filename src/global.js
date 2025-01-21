@@ -35,18 +35,23 @@ p {
 }
 
 /* Estilos responsivos */
+/*COMPUTADOR*/
 @media (max-width: 1200px) {
     body {
         background-color: rgb(50, 50, 50);
     }
 }
 
+/*TABLET*/
 @media (max-width: 768px) {
     h1 {
         font-size: 1.5em;
+        flex-direction: column-reverse;
+        margin: auto
     }
 }
 
+/*MOVIL*/
 @media (max-width: 480px) {
     h1 {
         font-size: 1.2em;
