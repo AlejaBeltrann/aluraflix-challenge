@@ -115,7 +115,7 @@ export const VideoTable = ({ editarVideo }) => {
                 <tr>
                     <th>Nombre</th>
                     <th>Descripción</th>
-                    <th>Categoria</th>
+                    <th>Categoría</th>
                     <ThCSS>✏️</ThCSS>
                     <ThCSS>🗑️</ThCSS>
                 </tr>
