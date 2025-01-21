@@ -1,29 +1,36 @@
-# AluraFlix
+# 🎬 Aluraflix - Challenge Oracle ONE
 
-Proyecto parte del Challenge React de Alura LATAM
+## 🚀 Sobre el Desafío
+Aluraflix es una plataforma que simula un servicio de streaming de videos, donde puedes agregar y gestionar una lista personalizada de tus videos favoritos.
 
-## Historial de versiones
+## 📄 Estructura HTML de la Página
+- **Header** con el logo de Aluraflix y botón para Nuevo Video.
+- **Sección principal** donde se muestran los videos añadidos.
+- **Cards** para cada video, mostrando el título, imagen de portada (esta lo redirije al enlace al video.)
+- **Formulario de registro** para agregar nuevos videos, incluyendo título, URL del video, URL de la imagen y una descripción de este.
+- **Footer** con información adicional sobre quien lo desarrollo.
 
-### `AluaFlix 0.1.0`
+## ⚙️ JavaScript y React
+- **React** para la creación de componentes reutilizables y gestión del estado.
+- **CSS** para la creación de una interfaz moderna y responsiva con clases utilitarias.
+- Manipulación del **DOM** utilizando React para renderizar la lista de videos.
+- **Validaciones** en el formulario para garantizar que los datos sean correctos antes de enviarlos.
+- **API** para guardar y recuperar la lista de videos agregados.
+- **Interactividad** para agregar, editar o eliminar videos en tiempo real.
 
-Version inicial.
+## 🛠️ Tecnologías Utilizadas
+- React
+- HTML
+- CSS
 
-### `AluaFlix 0.1.2`
+## 🚀 Instalación
+1. Clona este repositorio:
+   ```bash
+   git clone [https://github.com/alejabeltran/aluraflix.git](https://github.com/AlejaBeltrann/aluraflix-challenge)
 
-Diseño de la p+agina y componentes base
+   cd aluraflix
+   npm install
+   npm start
 
-### `AluaFlix 0.1.3`
 
-Implementación de styled components
 
-### `AluaFlix 0.1.6`
-
-Creación de datos-iniciales.json, tablas de categorias y formularios no controlados
-
-### `AluaFlix 0.1.7`
-
-Implementación de hooks en el formulario nueva categoria incluyendo validación boton Actializar - Enviar y botón Limpiar, visualización correcta de la tabla categorias. generacion de CRUD en api.js
-
-#### `Elementos para futuras versiones`
-
-Mejoraar diseño responsivo
