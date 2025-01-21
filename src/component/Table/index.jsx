@@ -116,8 +116,8 @@ export const VideoTable = ({ editarVideo }) => {
                     <th>Nombre</th>
                     <th>Descripción</th>
                     <th>Categoria</th>
-                    <ThCSS>Editar</ThCSS>
-                    <ThCSS>Remover</ThCSS>
+                    <ThCSS>"Editar"✏️</ThCSS>
+                    <ThCSS>"Eliminar"🗑️</ThCSS>
                 </tr>
             </thead>
             <tbody>
@@ -126,8 +126,8 @@ export const VideoTable = ({ editarVideo }) => {
                         <td>{video.titulo}</td>
                         <td>{video.descripcion}</td>
                         <td>{video.categoria}</td>
-                        <TdCSS><a href='#' onClick={() => editarVideo(video.id)}>Editar</a></TdCSS>
-                        <TdCSS><a href='#' onClick={() => handleRemove(video.id)} >Remover</a></TdCSS>
+                        <TdCSS><a href='#' onClick={() => editarVideo(video.id)}>✏️</a></TdCSS>
+                        <TdCSS><a href='#' onClick={() => handleRemove(video.id)} >🗑️</a></TdCSS>
                     </tr>
                 ))}
             </tbody>
