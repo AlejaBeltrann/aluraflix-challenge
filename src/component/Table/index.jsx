@@ -14,14 +14,14 @@ const TablaCSS = styled.table`
     font-style: normal;
     line-height: normal;
     th {
-        font-size: 1rem;
+        font-size: 12px;
         font-weight: 400;
         border: 3px solid var(--color-primary-medium);
         margin: 2px;
         padding: 2px;
     }
     td {
-        font-size: 1rem ;
+        font-size: 12px;
         color: #E5E5E5;
         font-weight: 300;
         border: 3px solid black;
