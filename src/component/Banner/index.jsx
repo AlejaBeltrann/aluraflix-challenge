@@ -56,7 +56,7 @@ const Banner = () => {
                     <Encabezado>Challenge React</Encabezado>
                     <Parrafo>Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.</Parrafo>
                 </ContenidoTexto>
-                <VideoCardMain borderColor={'rgba(42, 122, 228, 1)'} videoImg={'https://img.youtube.com/vi/MnBNPA45NW8/maxresdefault.jpg'} src={'https://www.youtube.com/watch?v=MnBNPA45NW8'} />
+                <VideoCardMain borderColor={'rgba(42, 122, 228, 1)'} />
             </Contenido>
         </BannerDiv>
     )
