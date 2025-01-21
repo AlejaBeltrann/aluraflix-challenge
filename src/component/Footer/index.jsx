@@ -14,7 +14,10 @@ const Card = styled.div`
     border-top: 0.125rem solid #2A7AE4;
     `
 const Footer = () => {
-    return <Card><LogoMain /></Card>
-}
+    return <Card>
+                <p>Desarrollado por Tatiana Beltran &copy; 2025</p>
+                <LogoMain />
+            </Card>
+  };
 
 export default Footer
