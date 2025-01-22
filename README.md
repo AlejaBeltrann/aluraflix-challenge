@@ -26,7 +26,7 @@ Aluraflix es una plataforma que simula un servicio de streaming de videos, donde
 ## 🚀 Instalación
 1. Clona este repositorio:
    ```bash
-   git clone [https://github.com/alejabeltran/aluraflix.git](https://github.com/AlejaBeltrann/aluraflix-challenge)
+   git clone https://github.com/AlejaBeltrann/aluraflix-challenge
 
    cd aluraflix
    npm install
